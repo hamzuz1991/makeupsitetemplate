@@ -59,7 +59,7 @@
 }
    .to2
    {  width: 50%;
-       margin-top: 50px;
+     
        margin-left: 38%;
      
    }
@@ -125,6 +125,27 @@
 
 }
 
+.page4
+
+  {
+    background-color: transparent ;
+    min-height: 500px;
+    width: 100%;
+ background-attachment: relative;
+ background-position: center center;
+ 
+ -webkit-background-size: 100%;
+ -moz-background-size: 100%;
+ -o-background-size: 100%;
+ background-size: 100%;
+
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+
+}
+
 .esp{
   height: 50px;
 }
@@ -134,18 +155,24 @@ html,
       padding: 0;
     }
 
-    * {
+    * { 
       box-sizing: border-box;
+     
     }
 
     .slider {
-      width: 80%;
+      width: 100%;
       margin: 100px auto;
     }
 
     .slick-slide {
       margin: 0px 20px;
       
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: brown !important;
+    
     }
 
     .slick-slide img {
@@ -157,13 +184,18 @@ html,
     }
     .slick-slide p {
      position: relative;
-     text-align: center ;
-     font-size: 15px
+    
+     font-size: 15px;
+     width:75%;
+     
+margin-left: 25%;
+text-decoration-style: solid;
    }
-
+   
     .slick-prev:before,
     .slick-next:before {
-      color: black;
+      color:black;
+    
     }
 
 
