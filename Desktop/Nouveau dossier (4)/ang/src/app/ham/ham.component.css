@@ -1,0 +1,39 @@
+.bag
+{
+  background: url(images/slider_image_home@2x.png) no-repeat center top;
+
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 800px;
+	width: 100%;
+
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+
+
+}
+.tit1{margin-top:250px;
+
+  width: 40%;}
+.tit{width: 40%;}
+.to
+{ margin-top: 100px;
+    background: url(images/ic_scroll@1x.png) no-repeat center top;
+
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 50px;
+	width: 100%;
+}
+.log
+{
+    width: 10%;
+    height: 5%;
+    margin-left: 45%;
+    margin-top: 3%;
+}
